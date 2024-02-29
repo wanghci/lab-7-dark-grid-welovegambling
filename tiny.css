@@ -1,0 +1,12 @@
+@media (max-width: 375px) {
+    .wrapper {
+      grid-template-columns: 100%;
+      grid-template-areas:
+        "content";
+    }
+
+    .main-nav, .main-head, .side, .ad, .main-footer {
+        display: none;
+    }
+  }
+  
