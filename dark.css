@@ -1,0 +1,13 @@
+/* Styles for the light theme */
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Styles for the dark theme */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000000;
+        color: #ffffff;
+    }
+}
