@@ -4,6 +4,17 @@ body {
     color: #000000;
 }
 
+.light-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.dark-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
 /* Styles for the dark theme */
 @media (prefers-color-scheme: dark) {
     body {
